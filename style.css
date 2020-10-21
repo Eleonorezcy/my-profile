@@ -1,0 +1,131 @@
+/* Colors ans fonts */
+body {
+	/*background: #13262f;*/
+	background-color: #13262f;
+	color: rgb(50, 50, 50);
+	font-family: 'Raleway', sans-serif;
+	font-size: : 17px;
+}
+
+h1, h2, h3 {
+	font-family: 'DM Serif Text', serif;
+}
+
+h1 {
+	color: #22333b;
+	font-size: 40px;	
+	font-weight: 900;
+}
+
+h2 {
+	color: #c3a995;
+	font-size: 27px;
+	font-weight: lighter;
+	font-weight: 300;
+}
+
+h3 {
+	color: #c3a995;
+	font-size: 27px;
+}
+
+h4 {
+	font-family: 'DM Serif Text', serif;
+	color: #13262f;
+	font-size: 15px;
+}
+
+a {
+	font-family: 'DM Serif Text', serif;
+	text-decoration: none;
+	color: #754043;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+a:hover {
+	color: #22333b;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+/*@media (max-width: 700px) {
+	.container {
+		width: 600px;
+	}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}*/
+
+
+.card-white {
+	background-color: white;
+	padding : 40px;
+	box-shadow: 0px 10px 30 px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px Opx;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #754043;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+
+.btn-blue:hover {
+	background-color:#c3a995;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li {
+	display: inline;
+	padding: 60px;
+	width: 60px;
+}
+
+.list-inline i:hover {
+	font-size: 40px;
+	color: #c3a995;
+}
+
+.list-inline i {
+	/*"fab fa-linkedin"></i>*/
+	font-size: 40px;
+}
+.fa-linkedin {
+	width: 60px;
+}
+
+
+
+/* Design adjustements using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
